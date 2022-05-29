@@ -17,3 +17,9 @@ npm run test-breaker
 ```
 > para simular respostar com falhas, dentro do index.ts existe uma função randômica que gera respostas 
 > com erros 400 ou 200
+
+
+## Convenções de estado
+* GREEN => CLOSED
+* YELLOW => HALF-OPEN
+* RED => OPEN
